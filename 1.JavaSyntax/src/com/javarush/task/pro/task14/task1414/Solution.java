@@ -14,6 +14,7 @@ public class Solution {
 
     public static void printStackTrace(StackTraceElement[] stackTrace) {
         //напишите тут ваш код
+        int a;
     }
 
     static void makeScrewdriver() {
