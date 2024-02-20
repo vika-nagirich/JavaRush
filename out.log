@@ -3515,3 +3515,414 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 5, length 5
 2024-02-06 19:59:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2024-02-06 19:59:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2024-02-06 19:59:28 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-06 23:52:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-06 23:52:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-06 23:53:05 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-06 23:53:09 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-06 23:53:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-07 00:11:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-07 00:11:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-07 00:11:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-07 00:12:03 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-07 00:12:03 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17
+2024-02-07 00:12:03 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1701
+2024-02-07 00:12:03 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:18:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-07 00:18:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-07 00:18:15 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-07 00:22:51 WARN  PluginUtil.getCurrentTask(77) - Error while retrieving the task key.
+java.lang.NullPointerException: Cannot invoke "com.intellij.openapi.vfs.VirtualFile.getChildren()" because "currentFile" is null
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:70)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:360)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:355)
+	at com.homework.plugin.extension.ProjectStartupHandler.access$300(ProjectStartupHandler.java:47)
+	at com.homework.plugin.extension.ProjectStartupHandler$1.selectionChanged(ProjectStartupHandler.java:123)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeMethod(MessageBusImpl.kt:655)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeListener(MessageBusImpl.kt:621)
+	at com.intellij.util.messages.impl.MessageBusImplKt.deliverMessage(MessageBusImpl.kt:395)
+	at com.intellij.util.messages.impl.MessageBusImplKt.pumpWaiting(MessageBusImpl.kt:374)
+	at com.intellij.util.messages.impl.MessageBusImplKt.access$pumpWaiting(MessageBusImpl.kt:1)
+	at com.intellij.util.messages.impl.MessagePublisher.invoke(MessageBusImpl.kt:433)
+	at jdk.proxy2/jdk.proxy2.$Proxy121.selectionChanged(Unknown Source)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$fireSelectionChanged$25(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.lambda$run$0(FileEditorManagerImpl.java:1252)
+	at com.intellij.openapi.util.ExpirableRunnable$1.run(ExpirableRunnable.java:17)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$doWhenFocusSettlesDown$3(FocusManagerImpl.java:173)
+	at com.intellij.util.ui.EdtInvocationManager.invokeLaterIfNeeded(EdtInvocationManager.java:33)
+	at com.intellij.ide.IdeEventQueue.ifFocusEventsInTheQueue(IdeEventQueue.java:176)
+	at com.intellij.ide.IdeEventQueue.executeWhenAllFocusEventsLeftTheQueue(IdeEventQueue.java:129)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:169)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.run(FileEditorManagerImpl.java:1251)
+	at com.intellij.openapi.util.BusyObject$Impl$Simple.execute(BusyObject.java:105)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.notifyPublisher(FileEditorManagerImpl.java:1248)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.fireSelectionChanged(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow$lambda$19(EditorsSplitters.kt:646)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow(EditorsSplitters.kt:655)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$MyFocusWatcher.focusedComponentChanged(EditorsSplitters.kt:770)
+	at com.intellij.openapi.wm.FocusWatcher._setFocused(FocusWatcher.java:159)
+	at com.intellij.openapi.wm.FocusWatcher.setFocusedComponentImpl(FocusWatcher.java:154)
+	at com.intellij.openapi.wm.FocusWatcher.focusGained(FocusWatcher.java:94)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:228)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:227)
+	at java.desktop/java.awt.Component.processFocusEvent(Component.java:6537)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1953)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1064)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:688)
+	at com.intellij.ide.IdeKeyboardFocusManager.lambda$dispatchEvent$0(IdeKeyboardFocusManager.java:32)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:32)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/sun.awt.SunToolkit$1.run(SunToolkit.java:516)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:909)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:756)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$5(IdeEventQueue.java:437)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:436)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:434)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:838)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:480)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-02-07 00:28:43 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2024-02-07 00:28:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:28:47 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2024-02-07 00:29:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2024-02-07 00:29:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2024-02-07 00:29:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2024-02-07 00:29:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2024-02-07 00:29:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2024-02-07 00:29:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2024-02-07 00:34:01 WARN  PluginUtil.getCurrentTask(77) - Error while retrieving the task key.
+java.lang.NullPointerException: Cannot invoke "com.intellij.openapi.vfs.VirtualFile.getChildren()" because "currentFile" is null
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:70)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:360)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:355)
+	at com.homework.plugin.extension.ProjectStartupHandler.access$300(ProjectStartupHandler.java:47)
+	at com.homework.plugin.extension.ProjectStartupHandler$1.selectionChanged(ProjectStartupHandler.java:123)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeMethod(MessageBusImpl.kt:655)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeListener(MessageBusImpl.kt:621)
+	at com.intellij.util.messages.impl.MessageBusImplKt.deliverMessage(MessageBusImpl.kt:395)
+	at com.intellij.util.messages.impl.MessageBusImplKt.pumpWaiting(MessageBusImpl.kt:374)
+	at com.intellij.util.messages.impl.MessageBusImplKt.access$pumpWaiting(MessageBusImpl.kt:1)
+	at com.intellij.util.messages.impl.MessagePublisher.invoke(MessageBusImpl.kt:433)
+	at jdk.proxy2/jdk.proxy2.$Proxy120.selectionChanged(Unknown Source)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$fireSelectionChanged$25(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.lambda$run$0(FileEditorManagerImpl.java:1252)
+	at com.intellij.openapi.util.ExpirableRunnable$1.run(ExpirableRunnable.java:17)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$doWhenFocusSettlesDown$3(FocusManagerImpl.java:173)
+	at com.intellij.util.ui.EdtInvocationManager.invokeLaterIfNeeded(EdtInvocationManager.java:33)
+	at com.intellij.ide.IdeEventQueue.ifFocusEventsInTheQueue(IdeEventQueue.java:176)
+	at com.intellij.ide.IdeEventQueue.executeWhenAllFocusEventsLeftTheQueue(IdeEventQueue.java:129)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:169)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.run(FileEditorManagerImpl.java:1251)
+	at com.intellij.openapi.util.BusyObject$Impl$Simple.execute(BusyObject.java:105)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.notifyPublisher(FileEditorManagerImpl.java:1248)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.fireSelectionChanged(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow$lambda$19(EditorsSplitters.kt:646)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow(EditorsSplitters.kt:655)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$MyFocusWatcher.focusedComponentChanged(EditorsSplitters.kt:770)
+	at com.intellij.openapi.wm.FocusWatcher._setFocused(FocusWatcher.java:159)
+	at com.intellij.openapi.wm.FocusWatcher.setFocusedComponentImpl(FocusWatcher.java:154)
+	at com.intellij.openapi.wm.FocusWatcher.focusGained(FocusWatcher.java:94)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:228)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:227)
+	at java.desktop/java.awt.Component.processFocusEvent(Component.java:6537)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1953)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1064)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:688)
+	at com.intellij.ide.IdeKeyboardFocusManager.lambda$dispatchEvent$0(IdeKeyboardFocusManager.java:32)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:32)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/sun.awt.SunToolkit$1.run(SunToolkit.java:516)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:909)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:756)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$5(IdeEventQueue.java:437)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:436)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:434)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:838)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:480)
+	at com.intellij.openapi.actionSystem.impl.Utils.lambda$expandActionGroupImpl$3(Utils.java:265)
+	at com.intellij.openapi.actionSystem.impl.Utils.runLoopAndWaitForFuture(Utils.java:836)
+	at com.intellij.openapi.actionSystem.impl.Utils.expandActionGroupImpl(Utils.java:263)
+	at com.intellij.openapi.actionSystem.impl.Utils.lambda$fillMenu$6(Utils.java:354)
+	at com.intellij.openapi.actionSystem.impl.Utils.computeWithRetries(Utils.java:866)
+	at com.intellij.openapi.actionSystem.impl.Utils.fillMenu(Utils.java:353)
+	at com.intellij.openapi.actionSystem.impl.ActionPopupMenuImpl$MyMenu.updateChildren(ActionPopupMenuImpl.java:177)
+	at com.intellij.openapi.actionSystem.impl.ActionPopupMenuImpl$MyMenu.show(ActionPopupMenuImpl.java:129)
+	at com.intellij.openapi.editor.impl.EditorGutterComponentImpl.invokePopup(EditorGutterComponentImpl.java:2419)
+	at com.intellij.openapi.editor.impl.EditorGutterComponentImpl.mousePressed(EditorGutterComponentImpl.java:2102)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.processMousePressed(EditorImpl.java:4081)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.lambda$runMousePressedCommand$0(EditorImpl.java:3954)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:219)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:174)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMousePressedCommand(EditorImpl.java:3959)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mousePressed(EditorImpl.java:3876)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6645)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3392)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:909)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:831)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:753)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$5(IdeEventQueue.java:437)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:436)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:434)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:838)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:480)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-02-07 00:34:32 WARN  PluginUtil.getCurrentTask(77) - Error while retrieving the task key.
+java.lang.NullPointerException: Cannot invoke "com.intellij.openapi.vfs.VirtualFile.getChildren()" because "currentFile" is null
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:70)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:360)
+	at com.homework.plugin.extension.ProjectStartupHandler.endFileTimeTracking(ProjectStartupHandler.java:355)
+	at com.homework.plugin.extension.ProjectStartupHandler.access$300(ProjectStartupHandler.java:47)
+	at com.homework.plugin.extension.ProjectStartupHandler$1.selectionChanged(ProjectStartupHandler.java:123)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeMethod(MessageBusImpl.kt:655)
+	at com.intellij.util.messages.impl.MessageBusImplKt.invokeListener(MessageBusImpl.kt:621)
+	at com.intellij.util.messages.impl.MessageBusImplKt.deliverMessage(MessageBusImpl.kt:395)
+	at com.intellij.util.messages.impl.MessageBusImplKt.pumpWaiting(MessageBusImpl.kt:374)
+	at com.intellij.util.messages.impl.MessageBusImplKt.access$pumpWaiting(MessageBusImpl.kt:1)
+	at com.intellij.util.messages.impl.MessagePublisher.invoke(MessageBusImpl.kt:433)
+	at jdk.proxy2/jdk.proxy2.$Proxy120.selectionChanged(Unknown Source)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$fireSelectionChanged$25(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.lambda$run$0(FileEditorManagerImpl.java:1252)
+	at com.intellij.openapi.util.ExpirableRunnable$1.run(ExpirableRunnable.java:17)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$doWhenFocusSettlesDown$3(FocusManagerImpl.java:173)
+	at com.intellij.util.ui.EdtInvocationManager.invokeLaterIfNeeded(EdtInvocationManager.java:33)
+	at com.intellij.ide.IdeEventQueue.ifFocusEventsInTheQueue(IdeEventQueue.java:176)
+	at com.intellij.ide.IdeEventQueue.executeWhenAllFocusEventsLeftTheQueue(IdeEventQueue.java:129)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:169)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$7.run(FileEditorManagerImpl.java:1251)
+	at com.intellij.openapi.util.BusyObject$Impl$Simple.execute(BusyObject.java:105)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.notifyPublisher(FileEditorManagerImpl.java:1248)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.fireSelectionChanged(FileEditorManagerImpl.java:1815)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow$lambda$19(EditorsSplitters.kt:646)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.setCurrentWindow(EditorsSplitters.kt:655)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$MyFocusWatcher.focusedComponentChanged(EditorsSplitters.kt:770)
+	at com.intellij.openapi.wm.FocusWatcher._setFocused(FocusWatcher.java:159)
+	at com.intellij.openapi.wm.FocusWatcher.setFocusedComponentImpl(FocusWatcher.java:154)
+	at com.intellij.openapi.wm.FocusWatcher.focusGained(FocusWatcher.java:94)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:228)
+	at java.desktop/java.awt.AWTEventMulticaster.focusGained(AWTEventMulticaster.java:227)
+	at java.desktop/java.awt.Component.processFocusEvent(Component.java:6537)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1953)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1064)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:688)
+	at com.intellij.ide.IdeKeyboardFocusManager.lambda$dispatchEvent$0(IdeKeyboardFocusManager.java:32)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:32)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/sun.awt.SunToolkit$1.run(SunToolkit.java:516)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:909)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:756)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$5(IdeEventQueue.java:437)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:436)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:434)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:838)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:480)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-02-07 00:35:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-07 00:35:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-07 00:35:19 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-07 00:35:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 20:53:42 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2024-02-16 20:53:42 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2024-02-16 20:53:42 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2024-02-16 20:53:43 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2024-02-16 20:53:43 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2024-02-16 20:53:43 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2024-02-16 20:56:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 20:56:41 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 20:56:50 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 20:56:50 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1702
+2024-02-16 21:02:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:02:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:02:11 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:03:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:03:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:03:07 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:03:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:03:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:03:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:04:16 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:04:16 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1703
+2024-02-16 21:04:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:07:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:07:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:07:11 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:07:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:07:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:07:34 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:08:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:08:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:08:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:16:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:16:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:16:07 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:16:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:16:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:16:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:16:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:16:27 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:16:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:16:29 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1704
+2024-02-16 21:16:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:16:31 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:38:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:38:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:38:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:38:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:39:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:39:12 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:39:16 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:39:16 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1705
+2024-02-16 21:39:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:49:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:49:06 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:49:13 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:49:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:50:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:50:36 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:50:39 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:50:39 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1706
+2024-02-16 21:50:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:55:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:55:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:56:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 21:56:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:56:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:56:07 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:56:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 21:56:09 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1707
+2024-02-16 21:56:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:56:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:56:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 21:59:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 21:59:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 21:59:22 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 22:00:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:00:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 22:00:20 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 22:00:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 22:00:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:00:26 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 22:00:31 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2024-02-16 22:00:31 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/User/Documents/java/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task17/task1708
+2024-02-16 22:00:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 22:07:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:07:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 22:07:28 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 22:18:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:18:35 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2024-02-16 22:18:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:19:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2024-02-16 22:19:02 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-02-16 22:19:04 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2024-02-16 22:19:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
