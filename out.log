@@ -7989,3 +7989,10 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 38, length 38
 2024-08-11 15:05:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2024-08-11 15:05:26 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2024-08-11 15:05:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2024-08-14 19:47:49 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2024-08-14 19:47:49 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.03 ----------
+
+2024-08-14 19:47:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2024-08-14 19:47:49 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2024-08-14 19:47:49 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2024-08-14 19:47:49 INFO  ApacheHttpClient.startGA(36) - GAService started.
